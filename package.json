@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1"
+  },
+  "name": "codes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3"
+  },
+  "scripts": {
+    "less": "less-watch-compiler ./src/styles ./build/styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
